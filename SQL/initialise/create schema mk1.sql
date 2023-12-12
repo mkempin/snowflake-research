@@ -1,5 +1,9 @@
-use role syadmin;
+use role sysadmin;
 
 use database mktest;
 
-create schema mk1;
+create schema mktest.mk1;
+
+--use role accountadmin;
+
+--drop schema mk1;
